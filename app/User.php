@@ -42,4 +42,9 @@ class User extends Authenticatable
 
         return $this->hasOne(Profiler::class);
     }
+
+    public function level(){
+
+        return $this->belongsTo(Level::class);
+    }
 }
