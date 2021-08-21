@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $users = \App\User::get();
+    return view('welcome', ['users'=>$users]);
 });

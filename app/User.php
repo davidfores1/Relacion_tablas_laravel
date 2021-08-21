@@ -52,4 +52,9 @@ class User extends Authenticatable
 
         return $this->belongsToMany(Level::class)->withTimestamps();
     }
+
+    public function location(){
+
+        return $this->hasOneThrough(Location::class, Profiler::class);
+    }
 }
