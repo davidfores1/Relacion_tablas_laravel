@@ -31,6 +31,7 @@ class AddLevelIdAtUsers extends Migration
      */
     public function down()
     {
-        //
+        Schema::drop('users');
+        Schema::drop('levels');
     }
 }

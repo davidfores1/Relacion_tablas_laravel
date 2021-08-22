@@ -40,7 +40,7 @@ class User extends Authenticatable
 
     public function profile(){
 
-        return $this->hasOne(Profiler::class);
+        return $this->hasOne(Profile::class);
     }
 
     public function level(){
@@ -50,12 +50,12 @@ class User extends Authenticatable
 
     public function groups(){
 
-        return $this->belongsToMany(Level::class)->withTimestamps();
+        return $this->belongsToMany(Group::class)->withTimestamps();
     }
 
     public function location(){
 
-        return $this->hasOneThrough(Location::class, Profiler::class);
+        return $this->hasOneThrough(Location::class, Profile::class);
     }
 
     public function posts(){

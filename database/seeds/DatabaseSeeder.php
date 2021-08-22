@@ -26,7 +26,7 @@ class DatabaseSeeder extends Seeder
 
         $user->groups()->attach($this->array(rand(1,3)));
 
-        $user->image()->save(factory(App\Image::class)->make(['url' => 'https://lorempixel.com/90/90']));
+        $user->image()->save(factory(App\Image::class)->make(['url' => 'https://lorempixel.com/90/90/']));
 
       });
 
@@ -46,7 +46,7 @@ class DatabaseSeeder extends Seeder
 
       });
 
-      factory(App\Post::class,40)->create()->each(function($video){
+      factory(App\Video::class,40)->create()->each(function($video){
 
         $video->image()->save(factory(App\Image::class)->make());
         $video->tags()->attach($this->array(rand(1,12)));
@@ -65,7 +65,7 @@ class DatabaseSeeder extends Seeder
 
       $values = [];
 
-      for ($i=0; $i < $max; $i++) { 
+      for ($i=1; $i < $max; $i++) { 
         
         $values[] = $i;
 
