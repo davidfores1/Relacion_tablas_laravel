@@ -1,9 +1,9 @@
 <h1>REQUISITOS:</h1>
 Laravel Framework: 7.30.4<br>
 MYSQL: 10.4.19<br>
-PHP Version 7.4.20<br>
+PHP Version 7.4.20<br><br>
 
--Clonar un proyecto de Laravel desde GitHub
+<h2>Clonar un proyecto de Laravel desde GitHub</h2>
 Instalar dependencias:<br>
 Para ello abriremos una terminal en la carpeta del proyecto y ejecutaremos: composer install<br>
 Vemos cómo se ha creado la carpeta vendor<br>
