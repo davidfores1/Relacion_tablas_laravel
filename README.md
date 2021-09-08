@@ -4,9 +4,9 @@ MYSQL: 10.4.19
 PHP Version 7.4.20
 
 -Clonar un proyecto de Laravel desde GitHub
-Instalar dependencias:
-Para ello abriremos una terminal en la carpeta del proyecto y ejecutaremos: composer install
-Vemos cómo se ha creado la carpeta vendor
+Instalar dependencias:<br>
+Para ello abriremos una terminal en la carpeta del proyecto y ejecutaremos: composer install<br>
+Vemos cómo se ha creado la carpeta vendor<br>
 
 -Crear una base de datos que soporte Laravel
 Entre las bases de datos que soporta Laravel por defecto, encontramos: MySQL, SQL Lite, PostgreSQL y SQL Server.
