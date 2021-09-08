@@ -1,7 +1,7 @@
 <h1>REQUISITOS:</h1>
-Laravel Framework: 7.30.4
-MYSQL: 10.4.19
-PHP Version 7.4.20
+Laravel Framework: 7.30.4<br>
+MYSQL: 10.4.19<br>
+PHP Version 7.4.20<br>
 
 -Clonar un proyecto de Laravel desde GitHub
 Instalar dependencias:<br>
