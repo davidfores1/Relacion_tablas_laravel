@@ -1,3 +1,7 @@
+<p>
+Se realiza aplicativo donde nos permite por medio del código realizar relaciones de tablas y sus consultas, en el aplicativo nos permite ver los datos del usuarios, los grupos a los que pertenece, sus post con categorías creadas y sus comentarios, este post esta relacionado con una serie de etiquetas, también sus videos creados con mensajes y etiquetas.  se realiza toda clase de relaciones, inculyendo las polimorficas 
+</p>   
+
 <h1>REQUISITOS:</h1>
 Laravel Framework: 7.30.4<br>
 MYSQL: 10.4.19<br>
