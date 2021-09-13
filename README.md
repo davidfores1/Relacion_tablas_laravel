@@ -35,11 +35,8 @@ La clave de aplicación es una cadena aleatoria almacenada en la clave APP_KEY d
 Para crear la nueva clave e insertarla automáticamente en el .env, ejecutaremos:<br>
 php artisan key:generate<br>
 
-<h3>Ejecutar migraciones</h3>
+<h3>Ejecutar migraciones y seeders</h3>
 Por último, ejecutamos las migraciones para que se generen las tablas con:<br>
 php artisan migrate<br>
+php artisan migrate:refresh --seed
 
-<h3>[Nota]:</h3>
-Si tuvieramos que incluir o crear nuevas migraciones utilizaríamos:<br>
-php artisan migrate:refresh <br>
-php artisan migrate:fresh  //borra y crea todas las tablas de nuevo
